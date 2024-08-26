@@ -1,0 +1,16 @@
+PackageIdentifier: dotenvx.dotenvx
+PackageVersion: 1.11.0
+InstallerLocale: en-US
+InstallerType: zip
+ReleaseDate: "2024-08-26"
+Installers:
+  - Architecture: x64
+    NestedInstallerType: portable
+    NestedInstallerFiles:
+      - RelativeFilePath: dotenvx.exe
+        PortableCommandAlias: dotenvx
+    InstallerUrl: https://github.com/dotenvx/dotenvx/releases/download/v1.11.0/dotenvx-1.11.0-windows-x86_64.zip
+    InstallerSha256: e3fb11f0b8779af2822aa9272c0a8a608d0d82a73f485e901aa345df0a5d16e4
+    UpgradeBehavior: uninstallPrevious
+ManifestType: installer
+ManifestVersion: 1.6.0
